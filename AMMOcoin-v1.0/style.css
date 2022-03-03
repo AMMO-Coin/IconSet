@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'AMMOcoin';
+  src:  url('fonts/AMMOcoin.eot?ky6y6');
+  src:  url('fonts/AMMOcoin.eot?ky6y6#iefix') format('embedded-opentype'),
+    url('fonts/AMMOcoin.ttf?ky6y6') format('truetype'),
+    url('fonts/AMMOcoin.woff?ky6y6') format('woff'),
+    url('fonts/AMMOcoin.svg?ky6y6#AMMOcoin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'AMMOcoin' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-AMMOcoin_Front:before {
+  content: "\e900";
+}
+.icon-AMMOcoin_Back:before {
+  content: "\e901";
+}
+.icon-AMMOcoin_Currency:before {
+  content: "\e902";
+}
+.icon-AMMOcoin_Anonymous:before {
+  content: "\e903";
+}
+.icon-AMMOcoin_Secure:before {
+  content: "\e904";
+}
+.icon-AMMOcoin_Eco:before {
+  content: "\e905";
+}
+.icon-AMMOcoin_Chat:before {
+  content: "\e906";
+}
+.icon-AMMOcoin_Merit:before {
+  content: "\e907";
+}
